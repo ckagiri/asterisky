@@ -1,0 +1,23 @@
+{
+  "name": "asterisky",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ckagiri/asterisky.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ckagiri/asterisky/issues"
+  },
+  "homepage": "https://github.com/ckagiri/asterisky#readme",
+  "dependencies": {
+    "jest": "^26.1.0"
+  }
+}
