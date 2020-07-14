@@ -6,11 +6,11 @@ const asterisky = value => {
 // return string representation of value passed
 const makeValueString = value => {
   // coerce type
-  let str = value + '';
+  const str = value + '';
 
-  // split by comma then join for arrays ie "1,2,3".splite(",") = ["1", "2", "3"]
-  // for non array create one element array ie "123".split(",") = ["123"]
-  let strArr = str.split(",");
+  // split by comma for array string ie "1,2,3".split(",") = ["1", "2", "3"]
+  // for non-array string create one element array ie "123".split(",") = ["123"]
+  const strArr = str.split(",");
 
   // ["1", "2", "3"].join('') = '123'
   // ["123"].join('') = '123'

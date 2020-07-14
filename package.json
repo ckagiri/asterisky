@@ -1,8 +1,8 @@
 {
   "name": "asterisky",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "npm install && npm test",
+  "main": "asterisky.js",
   "scripts": {
     "test": "jest"
   },
@@ -17,7 +17,7 @@
     "url": "https://github.com/ckagiri/asterisky/issues"
   },
   "homepage": "https://github.com/ckagiri/asterisky#readme",
-  "dependencies": {
+  "devDependencies": {
     "jest": "^26.1.0"
   }
 }
